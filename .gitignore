@@ -3,6 +3,9 @@
 
 # Admin docs (working docs for Claude, not source code)
 admin_docs/
+CLAUDE.md
+TODO.md
+SPEC.md
 
 # OS
 .DS_Store
