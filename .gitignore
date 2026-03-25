@@ -1,0 +1,17 @@
+# Runtime data (created per-project when /learn is invoked)
+.vibe-learn/
+
+# Admin docs (working docs for Claude, not source code)
+admin_docs/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
