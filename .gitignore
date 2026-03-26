@@ -3,6 +3,9 @@
 
 # Admin docs (working docs for Claude, not source code)
 admin_docs/
+
+# Handoff protocol (ephemeral)
+HANDOFF.md
 CLAUDE.md
 TODO.md
 SPEC.md

@@ -11,13 +11,15 @@ After a coding session, type `/learn` and get a brief, contextual lesson on a co
 **macOS / Linux:**
 ```bash
 git clone https://github.com/rwineman/vibe-learn.git
+mkdir -p ~/.claude/skills
 cp -r vibe-learn/skill ~/.claude/skills/learn
 ```
 
 **Windows (PowerShell):**
 ```powershell
 git clone https://github.com/rwineman/vibe-learn.git
-xcopy /E /I vibe-learn\skill $env:USERPROFILE\.claude\skills\learn
+mkdir -Force $env:USERPROFILE\.claude\skills | Out-Null
+Copy-Item -Recurse vibe-learn\skill $env:USERPROFILE\.claude\skills\learn
 ```
 
 You can delete the cloned repo after copying — the skill is standalone.
